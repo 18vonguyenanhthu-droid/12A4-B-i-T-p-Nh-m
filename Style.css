@@ -1,7 +1,13 @@
+
 h1 {
   color: 4C8554;
   text-align: center;
 }
 td {
   text-align: center;
+}
+.tieude {
+  color: 78986B
+  font-size: 25pt;
+  top-margin: 18pt;
 }
