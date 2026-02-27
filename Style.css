@@ -10,11 +10,21 @@
 .menu{
   flex:5%;
   background-color: A0C79F;
+  display: flex;
+}
+.menu a{
+  padding :15px 20px;
 }
 .content {
  flex:70%;
  background-color: F3D9DC; 
 }
+.content iframe{
+   flex:1;
+   border: none;
+   width: 100%;
+   height:100%;
+  }
 .footer{
  flex:5%;
  background-color: C78283;
