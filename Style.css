@@ -12,13 +12,14 @@
   background-color: f9e0d9;
 }
 .content {
- flex:70%
+ flex:70%;
  background-color: 7d6167; 
 }
 .footer{
- flex:5%
+ flex:5%;
  background-color: 754f5b;
 }
+
 h1 {
   color: 4C8554;
   text-align: center;
