@@ -5,19 +5,19 @@
 }
 .header{ 
   flex:15%;
-  background-color:  a0c79f;
+  background-color:  656839;
 }
 .menu{
   flex:5%;
-  background-color: f9e0d9;
+  background-color: A0C79F;
 }
 .content {
- flex:75%;
- background-color: 7d6167; 
+ flex:70%;
+ background-color: F3D9DC; 
 }
 .footer{
  flex:5%;
- background-color: 754f5b;
+ background-color: C78283;
 }
 
 h1 {
