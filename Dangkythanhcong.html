@@ -3,9 +3,14 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <form action ="Đangkyhoithao.html" >
-    <h1><strong> Cảm ơn bạn đã đăng ký </strong>  </h1>
-    <h2> Hãy Quay lại để đăng ký thêm </h2>
+    <p id="kq"> </p>
+    <script>
+      let gopy = new URLSearchParams (window.location.search);
+      let ten = gopy.get("txtTen");
+      document.getElementById("kq").innerHTML = "Cảm ơn bạn" + ten
+        +  " đăng ký <br><br>Hãy Quay lại để đăng ký thêm
+    </script>
+    <form action ="Đangkyhoithao.html" >  
     <input type="submit" name = "cmd" value = "Quay lại">
     </form>
   </body>
